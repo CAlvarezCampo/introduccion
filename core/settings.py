@@ -1,6 +1,6 @@
 from pathlib import Path
 import os
-import environ 
+import environ
 
 env = environ.Env()
 environ.Env.read_env()
@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'blog',
 ]
 
 MIDDLEWARE = [
